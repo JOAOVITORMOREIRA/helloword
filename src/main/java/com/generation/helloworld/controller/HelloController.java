@@ -17,4 +17,14 @@ public class HelloController {
 	public String meuNome() {
 		return "<b>Hello!<br />João Vitor Moreira!</b>";
 	}
+	
+	@GetMapping("/bsm")
+	public String bsmLista() {
+		return "<b>Responsabilidade Pessoal;<br />Mentalidade de Crescimento;</b><br />Oreintação ao Futuro;</b><br />Persistência</b>";
+	}
+	
+	@GetMapping("/objetivo")
+	public String meusObjetivos() {
+		return "<b>Orientacao aos detalhes<br />Trabalho em Equipe</b>";
+	}
 }
